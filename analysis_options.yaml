@@ -1,0 +1,10 @@
+# You could lint your package like this:
+# dartanalyzer --options analysis_options.yaml .
+# flutter analyze
+
+include: package:pedantic_mono/analysis_options.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
