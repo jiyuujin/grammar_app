@@ -18,7 +18,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-  flutter_riverpod: ^1.0.3
+  flutter_theme_selector:
+    git:
+      url: https://github.com/jiyuujin/flutter_theme_selector
+      ref: main
   flutter_svg: ^1.0.3
   flutter_svg_provider: ^1.0.1
   intl: ^0.17.0

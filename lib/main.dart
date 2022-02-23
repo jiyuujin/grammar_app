@@ -44,7 +44,6 @@ class MyApp extends StatelessWidget {
                 ],
               ),
             ),
-            darkTheme: ThemeData.dark(),
           );
         }
         return const Loading();
